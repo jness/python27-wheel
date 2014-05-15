@@ -16,7 +16,7 @@ Source0:        http://pypi.python.org/packages/source/w/wheel/wheel-%{version}.
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildArch:      noarch
-BuildRequires:  python%{pyver}-devel
+BuildRequires:  python%{pyver}-devel, python%{pyver}-setuptools
 Requires:       python%{pyver}-setuptools, python%{pyver}-pip
 
 %description
