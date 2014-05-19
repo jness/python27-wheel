@@ -47,3 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 # For noarch packages: sitelib
 %{python_sitelib}/*
 %attr(755,root,root) %{_bindir}/wheel*
+
+%changelog
+* Thu May 15 2014 Jeffrey Ness <jeffrey.ness@rackspace.com> - 0.23.0-1
+- First build
